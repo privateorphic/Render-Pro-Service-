@@ -31,7 +31,7 @@ export const Route = createFileRoute("/projects/$slug")({
     const { project } = loaderData;
     return {
       meta: [
-        { title: `${project.title} — Everest Rendering` },
+        { title: `${project.title} — Render Pro Service` },
         { name: "description", content: project.summary },
         { property: "og:title", content: project.title },
         { property: "og:description", content: project.summary },

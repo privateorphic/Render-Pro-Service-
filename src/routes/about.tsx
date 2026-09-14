@@ -2,17 +2,16 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import teamOnsite from "@/assets/team-onsite.jpg";
 import craftTrowel from "@/assets/craft-trowel.jpg";
 import projectMosman from "@/assets/project-mosman.jpg";
-import logo from "@/assets/everest-logo.svg";
-import logoNavy from "@/assets/everest-logo-navy.svg";
+import logo from "@/assets/render-pro-logo.png";
 import { EyebrowHeading } from "@/components/eyebrow-heading";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Everest Rendering Services" },
-      { name: "description", content: "QBCC-licensed rendering contractors based on the Gold Coast. Specialists in acrylic, cement, texture and blue board finishes across South East Queensland." },
-      { property: "og:title", content: "About — Everest Rendering Services" },
-      { property: "og:description", content: "QBCC-licensed rendering contractors based on the Gold Coast, Queensland." },
+      { title: "About — Render Pro Service" },
+      { name: "description", content: "Professional rendering contractors based on the Gold Coast. Specialists in acrylic, cement, texture and blue board finishes across South East Queensland." },
+      { property: "og:title", content: "About — Render Pro Service" },
+      { property: "og:description", content: "Professional rendering contractors based on the Gold Coast, Queensland." },
       { property: "og:url", content: "/about" },
       { property: "og:image", content: teamOnsite },
     ],
@@ -22,7 +21,7 @@ export const Route = createFileRoute("/about")({
 });
 
 const highlights = [
-  { h: "QBCC licensed", b: "Fully licensed and insured to operate as rendering contractors in Queensland." },
+  { h: "QBCC Under Process", b: "Operating under professional quality standards with licensing registration in process." },
   { h: "Premium materials", b: "Only premium-grade acrylic, cement and texture systems selected for Australian conditions." },
   { h: "Trained applicators", b: "Ongoing training keeps our team across current techniques and manufacturer standards." },
   { h: "Flexible scheduling", b: "We work around your build programme — with prompt communication from first call to handover." },
@@ -46,20 +45,22 @@ function AboutPage() {
               Professional rendering contractors, bringing architectural concepts to life.
             </h1>
             <p className="mt-6 sm:mt-10 max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed">
-              At Everest Rendering Services, we specialise in acrylic-based renders, cement rendering,
+              At Render Pro Service, we specialise in acrylic-based renders, cement rendering,
               texture finishes and blue board texture finishes. Every project — from a single feature wall
               to a full facade — is executed with the highest level of craftsmanship and attention to detail.
             </p>
           </div>
-          <div className="hidden lg:flex shrink-0 p-8 bg-[#0d1b2e] rounded-xl shadow-2xl">
-            <img src={logo} alt="Everest Rendering Services Official Logo" className="h-24 w-auto object-contain" width={460} height={110} />
+          <div className="hidden lg:flex shrink-0 p-8 bg-[#0d1b2e] rounded-xl shadow-2xl items-center justify-center">
+            <div className="bg-white px-4 py-2 rounded-lg inline-flex items-center">
+              <img src={logo} alt="Render Pro Service Official Logo" className="h-20 w-auto object-contain" width={460} height={110} />
+            </div>
           </div>
         </div>
       </section>
 
       <section className="pb-16 sm:pb-24">
         <div className="container-page">
-          <img src={teamOnsite} alt="Everest team working on scaffolding" className="w-full aspect-[16/10] sm:aspect-[21/10] object-cover" loading="lazy" />
+          <img src={teamOnsite} alt="Render Pro Service team working on scaffolding" className="w-full aspect-[16/10] sm:aspect-[21/10] object-cover" loading="lazy" />
         </div>
       </section>
 
@@ -80,7 +81,7 @@ function AboutPage() {
           <div className="md:col-span-4">
             <div className="eyebrow text-accent">Coverage</div>
             <p className="mt-4 sm:mt-6 font-display text-xl sm:text-2xl tracking-tighter text-ink leading-snug">
-              Based in Southport on the Gold Coast, serving projects across South East Queensland.
+              Based on the Gold Coast, serving projects across South East Queensland.
             </p>
           </div>
         </div>
@@ -107,15 +108,15 @@ function AboutPage() {
             <img src={craftTrowel} alt="Craftsman applying render by hand" className="w-full aspect-[4/5] object-cover" loading="lazy" />
           </div>
           <div className="md:col-span-6">
-            <EyebrowHeading eyebrow="Why choose us" title={<>The reasons people choose Everest.</>} />
+            <EyebrowHeading eyebrow="Why choose us" title={<>The reasons people choose Render Pro Service.</>} />
             <ul className="mt-10 space-y-4 text-muted-foreground">
               {[
-                "QBCC-licensed rendering contractors (License No. 15455473)",
+                "Professional rendering contractors (QBCC License registration under process)",
                 "Registered company (ABN: 98 676 120 166 · ACN: 676 120 166)",
-                "Based on the Gold Coast (Southport HQ) serving all SE QLD",
+                "Based on the Gold Coast serving all SE QLD",
                 "Fast 24-hour turnaround on free estimates & itemised quotes",
                 "Premium-grade materials selected for Australian weather conditions",
-                "Skilled, continuously trained applicators across all 8 render disciplines",
+                "Skilled, continuously trained applicators across all render disciplines",
                 "Flexible booking to suit your build programme",
                 "Direct communication from first call through to handover",
               ].map((x) => (

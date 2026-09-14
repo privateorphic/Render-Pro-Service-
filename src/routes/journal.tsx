@@ -8,9 +8,9 @@ import beforeImg from "@/assets/before.jpg";
 export const Route = createFileRoute("/journal")({
   head: () => ({
     meta: [
-      { title: "Journal — Everest Rendering" },
-      { name: "description", content: "Field notes on rendering, maintenance, and modern exterior inspiration from Everest Rendering Services." },
-      { property: "og:title", content: "Journal — Everest Rendering" },
+      { title: "Journal — Render Pro Service" },
+      { name: "description", content: "Field notes on rendering, maintenance, and modern exterior inspiration from Render Pro Service." },
+      { property: "og:title", content: "Journal — Render Pro Service" },
       { property: "og:description", content: "Field notes on rendering and modern exteriors." },
       { property: "og:url", content: "/journal" },
     ],

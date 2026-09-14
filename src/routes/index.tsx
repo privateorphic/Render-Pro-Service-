@@ -16,14 +16,14 @@ import { EyebrowHeading } from "@/components/eyebrow-heading";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Everest Rendering Services — Rendering Contractors, Gold Coast" },
+      { title: "Render Pro Service — Rendering Contractors, Gold Coast" },
       {
         name: "description",
         content:
-          "QBCC-licensed rendering contractors in Southport, Gold Coast. Acrylic renders, cement rendering, texture finishes and blue board across South East Queensland.",
+          "Professional rendering contractors based on the Gold Coast. Acrylic renders, cement rendering, texture finishes and blue board across South East Queensland.",
       },
-      { property: "og:title", content: "Everest Rendering Services — Rendering Contractors, Gold Coast" },
-      { property: "og:description", content: "QBCC-licensed rendering contractors delivering acrylic, cement, texture and blue board finishes across South East Queensland." },
+      { property: "og:title", content: "Render Pro Service — Rendering Contractors, Gold Coast" },
+      { property: "og:description", content: "Professional rendering contractors delivering acrylic, cement, texture and blue board finishes across South East Queensland." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { property: "og:url", content: "/" },
@@ -67,9 +67,9 @@ function Home() {
           <div className="max-w-4xl reveal">
             <div className="flex flex-wrap items-center gap-2.5 sm:gap-3">
               <span className="inline-flex items-center gap-2 border border-white/25 bg-white/10 backdrop-blur-sm px-3 py-1.5 eyebrow text-white/85 text-[0.65rem] sm:text-[0.72rem]">
-                <span className="size-1.5 rounded-full bg-accent" /> QBCC Licensed Contractor · License No. 15455473
+                <span className="size-1.5 rounded-full bg-accent" /> QBCC Registration · Under Process
               </span>
-              <span className="eyebrow text-white/60 text-[0.65rem] sm:text-[0.72rem]">Southport · Gold Coast · SE QLD</span>
+              <span className="eyebrow text-white/60 text-[0.65rem] sm:text-[0.72rem]">Gold Coast · SE QLD</span>
             </div>
             <h1 className="mt-5 sm:mt-6 font-display font-light text-[clamp(2.15rem,6.5vw,6.5rem)] leading-[0.98] tracking-tightest">
               Professional and expert
@@ -124,7 +124,7 @@ function Home() {
               <p className="mt-2 text-sm text-muted-foreground">
                 Explore our ongoing projects and finishes on{" "}
                 <a
-                  href="https://www.instagram.com/everest_renderingservices"
+                  href="https://www.instagram.com/renderproservices"
                   target="_blank"
                   rel="noreferrer"
                   className="text-accent hover:underline font-medium inline-flex items-center gap-1"
@@ -135,7 +135,7 @@ function Home() {
             </div>
             <div className="flex flex-wrap items-center gap-4 self-start md:self-end">
               <a
-                href="https://www.instagram.com/everest_renderingservices"
+                href="https://www.instagram.com/renderproservices"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 bg-ink text-background px-4 py-2.5 text-[11px] font-semibold uppercase tracking-wider hover:bg-accent transition-colors"
@@ -254,12 +254,12 @@ function Home() {
           <div className="md:col-span-6 relative">
             <img src={craftTrowel} alt="Rendering by hand with a steel trowel" className="w-full aspect-[4/5] object-cover" loading="lazy" />
             <div className="hidden md:block absolute -bottom-8 -right-8 bg-accent text-accent-foreground p-8 max-w-[220px]">
-              <div className="font-display text-3xl tracking-tightest">QBCC</div>
-              <div className="eyebrow text-accent-foreground/80 mt-2">Licensed & insured company</div>
+              <div className="font-display text-2xl tracking-tighter uppercase">QBCC</div>
+              <div className="eyebrow text-accent-foreground/80 mt-2">Registration Under Process</div>
             </div>
           </div>
           <div className="md:col-span-6">
-            <EyebrowHeading eyebrow="Why choose us" title={<>Reasons people keep choosing Everest.</>} />
+            <EyebrowHeading eyebrow="Why choose us" title={<>Reasons people keep choosing Render Pro Service.</>} />
             <div className="mt-10 grid sm:grid-cols-2 gap-x-10 gap-y-8">
               {[
                 {
@@ -326,7 +326,7 @@ function Home() {
       <section className="bg-ink text-background py-24 md:py-32">
         <div className="container-page grid md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-5">
-            <img src={teamOnsite} alt="Everest crew rendering a facade on scaffolding" className="w-full aspect-[4/5] object-cover grayscale" loading="lazy" />
+            <img src={teamOnsite} alt="Render Pro Services crew rendering a facade on scaffolding" className="w-full aspect-[4/5] object-cover grayscale" loading="lazy" />
           </div>
           <div className="md:col-span-6 md:col-start-7">
             <div className="eyebrow text-accent">Trusted by</div>
@@ -384,9 +384,8 @@ function Home() {
             <Link to="/contact" className="bg-accent text-accent-foreground px-8 py-5 text-[11px] font-semibold uppercase tracking-[0.2em] hover:bg-background hover:text-ink transition-colors">
               Request a free quote
             </Link>
-            <a href="tel:+61452109330" className="border border-white/40 px-8 py-5 text-[11px] font-semibold uppercase tracking-[0.2em] hover:bg-white/10 transition-colors">
-              Call +61 452 109 330
-
+            <a href="tel:0431306910" className="border border-white/40 px-8 py-5 text-[11px] font-semibold uppercase tracking-[0.2em] hover:bg-white/10 transition-colors">
+              Call 0431 306 910
             </a>
           </div>
         </div>

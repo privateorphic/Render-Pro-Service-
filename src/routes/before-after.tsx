@@ -11,9 +11,9 @@ import heroFacade from "@/assets/hero-facade.jpg";
 export const Route = createFileRoute("/before-after")({
   head: () => ({
     meta: [
-      { title: "Before & After Transformations — Everest Rendering Services" },
-      { name: "description", content: "Interactive before-and-after villa facade transformations by QBCC-licensed Everest Rendering Services across Gold Coast and South East QLD." },
-      { property: "og:title", content: "Before & After — Everest Rendering Services" },
+      { title: "Before & After Transformations — Render Pro Service" },
+      { name: "description", content: "Interactive before-and-after villa facade transformations by Render Pro Service across Gold Coast and South East QLD." },
+      { property: "og:title", content: "Before & After — Render Pro Service" },
       { property: "og:description", content: "Interactive slider comparisons of real Gold Coast rendering projects." },
       { property: "og:url", content: "/before-after" },
     ],
@@ -131,7 +131,7 @@ function BeforeAfterPage() {
 
       <section className="bg-ink text-background py-20 sm:py-28">
         <div className="container-page text-center max-w-3xl mx-auto space-y-6">
-          <div className="eyebrow text-accent">QBCC License #15455473</div>
+          <div className="eyebrow text-accent">QBCC Status: Under Process</div>
           <h2 className="font-display font-light text-3xl sm:text-4xl md:text-5xl leading-tight tracking-tightest">
             Curious what your villa could become?
           </h2>
@@ -142,8 +142,8 @@ function BeforeAfterPage() {
             <Link to="/contact" className="inline-flex bg-accent text-accent-foreground px-8 py-4 text-[11px] font-semibold uppercase tracking-[0.2em] hover:bg-background hover:text-ink transition-colors">
               Book a Free Site Visit
             </Link>
-            <a href="tel:+61452109330" className="inline-flex border border-background/30 text-background px-8 py-4 text-[11px] font-semibold uppercase tracking-[0.2em] hover:bg-background/10 transition-colors">
-              Call +61 452 109 330
+            <a href="tel:0431306910" className="inline-flex border border-background/30 text-background px-8 py-4 text-[11px] font-semibold uppercase tracking-[0.2em] hover:bg-background/10 transition-colors">
+              Call 0431 306 910
             </a>
           </div>
         </div>

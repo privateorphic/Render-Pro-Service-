@@ -1,6 +1,6 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import logo from "@/assets/everest-logo.svg";
+import logo from "@/assets/render-pro-logo.png";
 
 const nav = [
   { to: "/", label: "Home" },
@@ -45,14 +45,16 @@ export function SiteHeader() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 bg-[#0d1b2e] text-white border-b border-white/10">
       <div className="container-page flex h-20 items-center justify-between gap-4 sm:gap-8">
-        <Link to="/" className="flex items-center" aria-label="Everest Rendering Services — Home">
-          <img
-            src={logo}
-            alt="Everest Rendering Services logo"
-            className="h-11 sm:h-13 w-auto object-contain"
-            width={460}
-            height={110}
-          />
+        <Link to="/" className="flex items-center" aria-label="Render Pro Service — Home">
+          <div className="bg-white px-2.5 py-1 rounded-sm inline-flex items-center">
+            <img
+              src={logo}
+              alt="Render Pro Service logo"
+              className="h-9 sm:h-11 w-auto object-contain"
+              width={460}
+              height={110}
+            />
+          </div>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-9">
@@ -70,16 +72,16 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-2 sm:gap-3">
           <a
-            href="tel:+61452109330"
+            href="tel:0431306910"
             className="hidden md:inline-flex text-[12px] tracking-wider text-white/80 hover:text-white transition-colors"
           >
-            +61 452 109 330
+            0431 306 910
           </a>
 
           {/* Quick Call Icon for Mobile */}
           <a
-            href="tel:+61452109330"
-            aria-label="Call +61 452 109 330"
+            href="tel:0431306910"
+            aria-label="Call 0431 306 910"
             className="md:hidden grid size-10 place-items-center border border-white/30 text-white transition-colors"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -118,7 +120,9 @@ export function SiteHeader() {
       {open && (
         <div className="lg:hidden fixed inset-x-0 top-20 bottom-0 bg-[#0d1b2e] text-white backdrop-blur-xl border-t border-white/10 overflow-y-auto flex flex-col justify-between z-50">
           <div className="container-page pt-6 pb-4 flex flex-col items-center border-b border-white/10">
-            <img src={logo} alt="Everest Rendering Services logo" className="h-14 w-auto object-contain" width={320} height={110} />
+            <div className="bg-white px-3 py-1.5 rounded-sm inline-flex items-center">
+              <img src={logo} alt="Render Pro Service logo" className="h-12 w-auto object-contain" width={320} height={110} />
+            </div>
           </div>
           <nav className="container-page py-4 flex flex-col gap-1">
             {nav.map((item) => (
@@ -142,10 +146,10 @@ export function SiteHeader() {
               Get Free Quote
             </Link>
             <a
-              href="tel:+61452109330"
+              href="tel:0431306910"
               className="w-full inline-flex justify-center items-center gap-2 border border-white/20 bg-white/5 py-3.5 text-xs text-white font-medium tracking-wider hover:bg-white/10 transition-colors"
             >
-              Call +61 452 109 330
+              Call 0431 306 910
             </a>
           </div>
         </div>

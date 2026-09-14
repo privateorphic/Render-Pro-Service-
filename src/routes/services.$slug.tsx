@@ -16,14 +16,14 @@ export const Route = createFileRoute("/services/$slug")({
   },
   head: ({ loaderData, params }) => {
     if (!loaderData) {
-      return { meta: [{ title: "Service not found — Everest" }, { name: "robots", content: "noindex" }] };
+      return { meta: [{ title: "Service not found — Render Pro Service" }, { name: "robots", content: "noindex" }] };
     }
     const { service } = loaderData;
     return {
       meta: [
-        { title: `${service.title} — Everest Rendering` },
+        { title: `${service.title} — Render Pro Service` },
         { name: "description", content: service.short },
-        { property: "og:title", content: `${service.title} — Everest Rendering` },
+        { property: "og:title", content: `${service.title} — Render Pro Service` },
         { property: "og:description", content: service.short },
         { property: "og:url", content: `/services/${params.slug}` },
         { property: "og:image", content: heroFacade },

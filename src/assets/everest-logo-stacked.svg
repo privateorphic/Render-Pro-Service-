@@ -1,47 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 250" width="320" height="250" fill="none">
-  <!-- EVEREST RENDERING SERVICES PTY LTD — Official Stacked Vector Logo with Navy Blue Background (#0d1b2e) -->
-  
-  <!-- NAVY BLUE BACKGROUND -->
-  <rect width="320" height="250" rx="16" fill="#0d1b2e"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" width="520" height="140" fill="none">
+  <!-- RENDER PRO SERVICES — Dark Navbar Vector Logo -->
 
-  <!-- ICON GROUP (CENTERED) -->
-  <g transform="translate(96, 10)">
-    <!-- 1. Semi-Circular Arch -->
-    <path d="M 16,58 A 48,48 0 0,1 112,58" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- LEFT: R ICON (White + Light Blue Window Panes) -->
+  <g transform="translate(10, 10)">
+    <!-- R Main Stem & Arch -->
+    <path d="M 0 10 L 55 10 C 95 10 115 28 115 50 C 115 72 95 82 65 84 L 115 120 L 84 120 L 38 84 L 38 120 L 0 120 Z M 38 34 L 38 62 L 55 62 C 72 62 80 56 80 48 C 80 40 72 34 55 34 Z" fill="#FFFFFF"/>
 
-    <!-- 2. Mountain Peaks ABOVE Roof Line -->
-    <path d="M 36,36 L 50,20 L 60,30 L 72,14 L 82,26 L 92,36" fill="none" stroke="#FFFFFF" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
-    <path d="M 50,20 L 55,30 M 72,14 L 77,26" stroke="#FFFFFF" stroke-width="1.8" opacity="0.8" stroke-linecap="round"/>
-
-    <!-- 3. House Roof Line (Thick Gable Roof) -->
-    <path d="M 12,58 L 64,26 L 116,58" fill="none" stroke="#FFFFFF" stroke-width="6.5" stroke-linejoin="miter" stroke-linecap="square"/>
-
-    <!-- 4. 4-Pane Window (Inside House Under Roof) -->
-    <rect x="48" y="48" width="7" height="7" fill="#FFFFFF"/>
-    <rect x="57" y="48" width="7" height="7" fill="#FFFFFF"/>
-    <rect x="48" y="57" width="7" height="7" fill="#FFFFFF"/>
-    <rect x="57" y="57" width="7" height="7" fill="#FFFFFF"/>
-
-    <!-- 5. Render Worker Silhouette (Inside House Under Roof) -->
-    <circle cx="85" cy="44" r="2.8" fill="#FFFFFF"/>
-    <path d="M 85,47 L 83,60 L 86,72 M 83,60 L 80,72" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-    <path d="M 84,49 L 80,42 L 76,39" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" fill="none"/>
-    <polygon points="73,37 78,36 77,41 72,42" fill="#FFFFFF"/>
-
-    <!-- 6. Curved Swoosh Horizon Base -->
-    <path d="M 8,74 Q 64,66 120,76" stroke="#FFFFFF" stroke-width="3.8" stroke-linecap="round" fill="none"/>
-    <path d="M 18,80 Q 64,73 110,82" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.85"/>
+    <!-- 2x2 Light Blue Window Grid on bottom-left of R -->
+    <rect x="12" y="92" width="7" height="7" fill="#7B93D6"/>
+    <rect x="21" y="92" width="7" height="7" fill="#7B93D6"/>
+    <rect x="12" y="101" width="7" height="7" fill="#7B93D6"/>
+    <rect x="21" y="101" width="7" height="7" fill="#7B93D6"/>
   </g>
 
-  <!-- TYPOGRAPHY GROUP (CENTERED TEXT) -->
-  <g text-anchor="middle" transform="translate(160, 115)">
-    <!-- Primary Title: EVEREST RENDERING -->
-    <text x="0" y="48" font-family="'Montserrat', 'Inter', system-ui, -apple-system, sans-serif" font-weight="900" font-size="21" fill="#FFFFFF" letter-spacing="1.2">EVEREST RENDERING</text>
+  <!-- RIGHT: ROOF + WORDMARK -->
+  <g transform="translate(145, 10)">
+    <!-- Triangular Roof Line with Chimney -->
+    <path d="M 30 46 L 150 8 L 270 46" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Chimney -->
+    <path d="M 215 26 L 215 14 L 230 14 L 230 31" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+    <line x1="211" y1="14" x2="234" y2="14" stroke="#FFFFFF" stroke-width="4"/>
 
-    <!-- Secondary Title: SERVICES PTY LTD -->
-    <text x="0" y="74" font-family="'Montserrat', 'Inter', system-ui, -apple-system, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF" letter-spacing="3.5" opacity="0.95">SERVICES PTY LTD</text>
+    <!-- 2x2 Light Blue Window Grid Under Roof Peak -->
+    <rect x="142" y="24" width="7.5" height="7.5" fill="#7B93D6"/>
+    <rect x="151.5" y="24" width="7.5" height="7.5" fill="#7B93D6"/>
+    <rect x="142" y="33.5" width="7.5" height="7.5" fill="#7B93D6"/>
+    <rect x="151.5" y="33.5" width="7.5" height="7.5" fill="#7B93D6"/>
 
-    <!-- Tagline: Simply the Best -->
-    <text x="0" y="98" font-family="'Playfair Display', 'Georgia', 'Times New Roman', serif" font-style="italic" font-weight="500" font-size="13" fill="#FFFFFF" letter-spacing="0.5" opacity="0.85">Simply the Best</text>
+    <!-- Company Wordmark: RENDER -->
+    <text x="0" y="88" font-family="'Montserrat', 'Inter', system-ui, sans-serif" font-weight="900" font-size="48" fill="#FFFFFF" letter-spacing="4">RENDER</text>
+
+    <!-- Company Wordmark: PRO SERVICES -->
+    <text x="2" y="118" font-family="'Montserrat', 'Inter', system-ui, sans-serif" font-weight="700" font-size="24" fill="#C08A33" letter-spacing="8.5">PRO SERVICES</text>
   </g>
 </svg>

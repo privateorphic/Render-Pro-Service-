@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import logo from "@/assets/everest-logo.svg";
+import logo from "@/assets/render-pro-logo.png";
 
 export function SiteFooter() {
   return (
@@ -8,31 +8,33 @@ export function SiteFooter() {
         <div className="grid gap-14 md:grid-cols-12">
           <div className="md:col-span-5">
             <Link to="/" className="inline-block font-display text-background">
-              <img src={logo} alt="Everest Rendering Services logo" className="h-14 sm:h-16 w-auto object-contain" width={460} height={110} loading="lazy" />
+              <div className="bg-white px-3 py-1.5 rounded-sm inline-block">
+                <img src={logo} alt="Render Pro Service logo" className="h-12 sm:h-14 w-auto object-contain" width={460} height={110} loading="lazy" />
+              </div>
             </Link>
 
             <p className="mt-8 max-w-md text-background/60 leading-relaxed">
-              QBCC-licensed rendering contractors based on the Gold Coast, delivering acrylic, cement,
+              Rendering contractors based on the Gold Coast, delivering acrylic, cement,
               texture and blue board finishes for homes and businesses across South East Queensland.
             </p>
             <div className="mt-4 text-xs text-background/50 space-y-0.5 font-mono">
-              <p>QBCC License No: <span className="text-background/80">15455473</span></p>
+              <p>QBCC Status: <span className="text-background/80">Under Process</span></p>
               <p>ABN: <span className="text-background/80">98 676 120 166</span> | ACN: <span className="text-background/80">676 120 166</span></p>
             </div>
             <div className="mt-8 grid grid-cols-2 gap-6 max-w-md">
               <div>
                 <div className="eyebrow text-background/50">Phone</div>
-                <a href="tel:+61452109330" className="mt-2 block text-background link-underline">
-                  +61 452 109 330
+                <a href="tel:0431306910" className="mt-2 block text-background link-underline">
+                  0431 306 910
                 </a>
               </div>
               <div>
                 <div className="eyebrow text-background/50">Email</div>
                 <a
-                  href="mailto:contact@everestrenderingservices.com.au"
+                  href="mailto:contact@renderproservices.com.au"
                   className="mt-2 block text-background link-underline break-all"
                 >
-                  contact@everestrenderingservices.com.au
+                  contact@renderproservices.com.au
                 </a>
               </div>
             </div>
@@ -62,21 +64,21 @@ export function SiteFooter() {
           <div className="md:col-span-2">
             <div className="eyebrow text-background/50">Head office</div>
             <address className="mt-6 not-italic text-background/75 leading-relaxed">
-              Southport<br />
+              Gold Coast<br />
               QLD 4215, Australia
             </address>
             <div className="mt-6 eyebrow text-background/50">Follow</div>
             <div className="mt-3 flex gap-4 text-background/75 text-sm">
-              <a href="https://www.facebook.com/Everestrendering" target="_blank" rel="noreferrer" className="link-underline">Facebook</a>
-              <a href="https://www.instagram.com/everest_renderingservices" target="_blank" rel="noreferrer" className="link-underline">Instagram</a>
-              <a href="https://www.linkedin.com/company/everest-rendering-services-pyt-ltd/" target="_blank" rel="noreferrer" className="link-underline">LinkedIn</a>
+              <a href="https://www.facebook.com/renderproservices" target="_blank" rel="noreferrer" className="link-underline">Facebook</a>
+              <a href="https://www.instagram.com/renderproservices" target="_blank" rel="noreferrer" className="link-underline">Instagram</a>
+              <a href="https://www.linkedin.com/company/render-pro-services-pty-ltd/" target="_blank" rel="noreferrer" className="link-underline">LinkedIn</a>
             </div>
           </div>
         </div>
 
         <div className="mt-20 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between gap-4 text-[11px] uppercase tracking-[0.18em] text-background/50">
-          <span>© {new Date().getFullYear()} Everest Rendering Services Pty Ltd</span>
-          <span>QBCC License No. 15455473</span>
+          <span>© {new Date().getFullYear()} Render Pro Service Pty Ltd</span>
+          <span>QBCC Status: Under Process</span>
         </div>
       </div>
     </footer>

@@ -74,21 +74,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Everest Rendering Services — Professional Rendering Contractors, QLD" },
+      { title: "Render Pro Service — Professional Rendering Contractors, QLD" },
       {
         name: "description",
         content:
-          "QBCC-licensed rendering contractors. Acrylic, cement, texture and blue board finishes for homes and businesses across South East Queensland.",
+          "Professional rendering contractors based on the Gold Coast. Acrylic, cement, texture and blue board finishes for homes and businesses across South East Queensland.",
       },
-      { name: "author", content: "Everest Rendering Services Pty Ltd" },
-      { property: "og:site_name", content: "Everest Rendering Services" },
+      { name: "author", content: "Render Pro Service Pty Ltd" },
+      { property: "og:site_name", content: "Render Pro Service" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#faf7f2" },
-      { property: "og:title", content: "Everest Rendering Services — Professional Rendering Contractors" },
-      { name: "twitter:title", content: "Everest Rendering Services — Professional Rendering Contractors" },
-      { property: "og:description", content: "QBCC-licensed rendering contractors delivering acrylic, cement, texture and blue board finishes across South East Queensland." },
-      { name: "twitter:description", content: "QBCC-licensed rendering contractors delivering acrylic, cement, texture and blue board finishes across South East Queensland." },
+      { property: "og:title", content: "Render Pro Service — Professional Rendering Contractors" },
+      { name: "twitter:title", content: "Render Pro Service — Professional Rendering Contractors" },
+      { property: "og:description", content: "Professional rendering contractors delivering acrylic, cement, texture and blue board finishes across South East Queensland." },
+      { name: "twitter:description", content: "Professional rendering contractors delivering acrylic, cement, texture and blue board finishes across South East Queensland." },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -131,8 +131,8 @@ function MobileStickyQuote() {
           <span className="text-accent text-sm font-mono">→</span>
         </Link>
         <a
-          href="tel:+61452109330"
-          aria-label="Call Everest Rendering"
+          href="tel:0431306910"
+          aria-label="Call Render Pro Service"
           className="flex items-center justify-center bg-accent text-accent-foreground px-4 py-3.5 shadow-lift active:scale-[0.98] transition-transform shrink-0"
         >
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>

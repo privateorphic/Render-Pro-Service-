@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" width="520" height="140" fill="none">
+  <!-- RENDER PRO SERVICES — Dark Navbar Vector Logo -->
+
+  <!-- LEFT: R ICON (White + Light Blue Window Panes) -->
+  <g transform="translate(10, 10)">
+    <!-- R Main Stem & Arch -->
+    <path d="M 0 10 L 55 10 C 95 10 115 28 115 50 C 115 72 95 82 65 84 L 115 120 L 84 120 L 38 84 L 38 120 L 0 120 Z M 38 34 L 38 62 L 55 62 C 72 62 80 56 80 48 C 80 40 72 34 55 34 Z" fill="#FFFFFF"/>
+
+    <!-- 2x2 Light Blue Window Grid on bottom-left of R -->
+    <rect x="12" y="92" width="7" height="7" fill="#7B93D6"/>
+    <rect x="21" y="92" width="7" height="7" fill="#7B93D6"/>
+    <rect x="12" y="101" width="7" height="7" fill="#7B93D6"/>
+    <rect x="21" y="101" width="7" height="7" fill="#7B93D6"/>
+  </g>
+
+  <!-- RIGHT: ROOF + WORDMARK -->
+  <g transform="translate(145, 10)">
+    <!-- Triangular Roof Line with Chimney -->
+    <path d="M 30 46 L 150 8 L 270 46" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Chimney -->
+    <path d="M 215 26 L 215 14 L 230 14 L 230 31" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+    <line x1="211" y1="14" x2="234" y2="14" stroke="#FFFFFF" stroke-width="4"/>
+
+    <!-- 2x2 Light Blue Window Grid Under Roof Peak -->
+    <rect x="142" y="24" width="7.5" height="7.5" fill="#7B93D6"/>
+    <rect x="151.5" y="24" width="7.5" height="7.5" fill="#7B93D6"/>
+    <rect x="142" y="33.5" width="7.5" height="7.5" fill="#7B93D6"/>
+    <rect x="151.5" y="33.5" width="7.5" height="7.5" fill="#7B93D6"/>
+
+    <!-- Company Wordmark: RENDER -->
+    <text x="0" y="88" font-family="'Montserrat', 'Inter', system-ui, sans-serif" font-weight="900" font-size="48" fill="#FFFFFF" letter-spacing="4">RENDER</text>
+
+    <!-- Company Wordmark: PRO SERVICES -->
+    <text x="2" y="118" font-family="'Montserrat', 'Inter', system-ui, sans-serif" font-weight="700" font-size="24" fill="#C08A33" letter-spacing="8.5">PRO SERVICES</text>
+  </g>
+</svg>

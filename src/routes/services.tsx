@@ -6,9 +6,9 @@ import texture from "@/assets/texture.jpg";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Rendering Services — Everest Rendering" },
+      { title: "Rendering Services — Render Pro Service" },
       { name: "description", content: "Acrylic, cement, texture, blue-board, foam-panel, commercial, residential and repairs — eight disciplines, one studio." },
-      { property: "og:title", content: "Rendering Services — Everest" },
+      { property: "og:title", content: "Rendering Services — Render Pro Service" },
       { property: "og:description", content: "Eight rendering disciplines, one studio." },
       { property: "og:url", content: "/services" },
     ],

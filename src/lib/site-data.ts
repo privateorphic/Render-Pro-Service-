@@ -184,7 +184,7 @@ export const projects: Project[] = [
     materials: ["Cement base render", "Fibreglass mesh", "Acrylic topcoat, fine grain", "Custom tint"],
     timeline: "6 weeks",
     quote:
-      "The finish is flawless. Everest was the only trade on this build that never needed a follow-up.",
+      "The finish is flawless. Render Pro Services was the only trade on this build that never needed a follow-up.",
     quoteAuthor: "Amelia Chen — Homeowner",
   },
   {
@@ -278,7 +278,7 @@ export const projects: Project[] = [
     materials: ["Various"],
     timeline: "Ongoing",
     quote: "This is where every project starts — with a physical sample, not a swatch.",
-    quoteAuthor: "Everest Studio",
+    quoteAuthor: "Render Pro Studio",
   },
 ];
 
@@ -303,28 +303,28 @@ export const testimonials = [
 ];
 
 export const companyDetails = {
-  name: "Everest Rendering Services Pty Ltd",
-  qbccLicense: "15455473",
+  name: "Render Pro Service Pty Ltd",
+  qbccLicense: "Under Process",
   abn: "98 676 120 166",
   acn: "676 120 166",
-  phone: "+61 452 109 330",
-  email: "contact@everestrenderingservices.com.au",
-  address: "Southport, QLD, 4215",
+  phone: "0431 306 910",
+  email: "contact@renderproservices.com.au",
+  address: "Gold Coast, QLD 4215",
   hours: "Mon - Sat: 09am - 08pm",
   quoteTurnaround: "24 hr",
-  instagramUrl: "https://www.instagram.com/everest_renderingservices",
-  facebookUrl: "https://www.facebook.com/Everestrendering",
-  linkedinUrl: "https://www.linkedin.com/company/everest-rendering-services-pyt-ltd/",
+  instagramUrl: "https://www.instagram.com/renderproservices",
+  facebookUrl: "https://www.facebook.com/renderproservices",
+  linkedinUrl: "https://www.linkedin.com/company/render-pro-services-pty-ltd/",
 };
 
 export const faqs = [
   {
     q: "What areas do you service?",
-    a: "We are based in Southport on the Gold Coast and service projects across South East Queensland — including Gold Coast, Brisbane, Logan, Redlands, and Ipswich down to Tweed Heads.",
+    a: "We are based on the Gold Coast and service projects across South East Queensland — including Gold Coast, Brisbane, Logan, Redlands, and Ipswich down to Tweed Heads.",
   },
   {
     q: "Are you licensed and insured?",
-    a: "Yes. Everest Rendering Services Pty Ltd is a fully QBCC-licensed contractor (QBCC License No. 15455473, ABN: 98 676 120 166, ACN: 676 120 166) and completely insured.",
+    a: "Render Pro Service Pty Ltd operates under professional quality standards with QBCC license registration currently under process and full trade insurance.",
   },
   {
     q: "What kinds of render do you offer?",
@@ -340,22 +340,22 @@ export const faqs = [
   },
   {
     q: "How do I get a quote?",
-    a: "Call +61 452 109 330, email contact@everestrenderingservices.com.au, or fill in our enquiry form for a quick quote within 24 hours.",
+    a: "Call 0431 306 910, email contact@renderproservices.com.au, or fill in our enquiry form for a quick quote within 24 hours.",
   },
 ];
 
 export const stats = [
   {
     number: "01",
-    value: "15455473",
-    label: "QBCC licensed",
-    subtext: "License No: 15455473",
+    value: "Under Process",
+    label: "QBCC registration",
+    subtext: "Licensing under process",
   },
   {
     number: "02",
     value: "Gold Coast",
     label: "Based on the",
-    subtext: "Southport HQ, QLD 4215",
+    subtext: "Gold Coast HQ, QLD 4215",
   },
   {
     number: "03",

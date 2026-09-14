@@ -20,9 +20,9 @@ const covers: Record<string, string> = {
 export const Route = createFileRoute("/projects")({
   head: () => ({
     meta: [
-      { title: "Projects — Everest Rendering" },
-      { name: "description", content: "Selected works from Everest Rendering: residential, commercial, luxury homes, texture finishes and heritage repairs." },
-      { property: "og:title", content: "Projects — Everest Rendering" },
+      { title: "Projects — Render Pro Service" },
+      { name: "description", content: "Selected works from Render Pro Service: residential, commercial, luxury homes, texture finishes and heritage repairs." },
+      { property: "og:title", content: "Projects — Render Pro Service" },
       { property: "og:description", content: "Selected works from the archive." },
       { property: "og:url", content: "/projects" },
     ],

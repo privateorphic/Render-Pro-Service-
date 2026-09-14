@@ -14,9 +14,9 @@ import teamOnsite from "@/assets/team-onsite.jpg";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Gallery — Everest Rendering" },
+      { title: "Gallery — Render Pro Service" },
       { name: "description", content: "A photographic archive of rendered facades, textures and craftsmanship across Australia." },
-      { property: "og:title", content: "Gallery — Everest Rendering" },
+      { property: "og:title", content: "Gallery — Render Pro Service" },
       { property: "og:description", content: "A photographic archive of rendered facades and craftsmanship." },
       { property: "og:url", content: "/gallery" },
     ],
@@ -66,7 +66,7 @@ function GalleryPage() {
             </p>
           </div>
           <a
-            href="https://www.instagram.com/everest_renderingservices"
+            href="https://www.instagram.com/renderproservices"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 bg-ink text-background px-6 py-3.5 text-xs font-semibold uppercase tracking-widest hover:bg-accent transition-colors self-start md:self-end shrink-0"

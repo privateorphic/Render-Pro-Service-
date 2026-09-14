@@ -5,9 +5,9 @@ import { z } from "zod";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Everest Rendering" },
-      { name: "description", content: "Request a free quote from Everest Rendering Services. QBCC-licensed rendering contractors based in Southport, Queensland." },
-      { property: "og:title", content: "Contact — Everest Rendering" },
+      { title: "Contact — Render Pro Service" },
+      { name: "description", content: "Request a free quote from Render Pro Service. Rendering contractors based on the Gold Coast, Queensland." },
+      { property: "og:title", content: "Contact — Render Pro Service" },
       { property: "og:description", content: "Book a site visit or request a quote." },
       { property: "og:url", content: "/contact" },
     ],
@@ -82,7 +82,7 @@ function ContactPage() {
           }),
         });
       } else {
-        response = await fetch("https://formsubmit.co/ajax/contact@everestrenderingservices.com.au", {
+        response = await fetch("https://formsubmit.co/ajax/contact@renderproservices.com.au", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -109,7 +109,7 @@ function ContactPage() {
     } catch (err) {
       console.error("Contact form submission failed:", err);
       setSubmitError(
-        "Something went wrong sending your enquiry. Please try again, or email us directly at contact@everestrenderingservices.com.au."
+        "Something went wrong sending your enquiry. Please try again, or email us directly at contact@renderproservices.com.au."
       );
     } finally {
       setIsSubmitting(false);
@@ -125,7 +125,7 @@ function ContactPage() {
             Tell us about your project.
           </h1>
           <p className="mt-6 sm:mt-8 max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed">
-            Free estimates and itemised quotes with a guaranteed 24-hour turnaround. Enquiries sent directly to contact@everestrenderingservices.com.au.
+            Free estimates and itemised quotes with a guaranteed 24-hour turnaround. Enquiries sent directly to contact@renderproservices.com.au.
           </p>
         </div>
       </section>
@@ -136,8 +136,8 @@ function ContactPage() {
             <div>
               <div className="eyebrow text-accent">Company Credentials</div>
               <div className="mt-3 sm:mt-4 space-y-1.5 text-ink text-sm sm:text-base font-medium">
-                <p className="font-display text-xl tracking-tight font-semibold">Everest Rendering Services Pty Ltd</p>
-                <p className="text-muted-foreground"><strong className="text-ink">QBCC License:</strong> 15455473</p>
+                <p className="font-display text-xl tracking-tight font-semibold">Render Pro Service Pty Ltd</p>
+                <p className="text-muted-foreground"><strong className="text-ink">QBCC Status:</strong> Under Process</p>
                 <p className="text-muted-foreground"><strong className="text-ink">ABN:</strong> 98 676 120 166</p>
                 <p className="text-muted-foreground"><strong className="text-ink">ACN:</strong> 676 120 166</p>
               </div>
@@ -146,7 +146,7 @@ function ContactPage() {
             <div>
               <div className="eyebrow text-accent">Main Office</div>
               <address className="mt-3 sm:mt-4 not-italic text-lg text-ink font-display tracking-tighter leading-snug">
-                Southport<br />
+                Gold Coast<br />
                 QLD 4215, Australia
               </address>
             </div>
@@ -154,11 +154,11 @@ function ContactPage() {
             <div className="grid grid-cols-1 gap-6">
               <div>
                 <div className="eyebrow text-accent">Make a Call / Free Estimate</div>
-                <a href="tel:+61452109330" className="mt-2 sm:mt-3 block font-display text-xl sm:text-2xl tracking-tighter text-ink link-underline">+61 452 109 330</a>
+                <a href="tel:0431306910" className="mt-2 sm:mt-3 block font-display text-xl sm:text-2xl tracking-tighter text-ink link-underline">0431 306 910</a>
               </div>
               <div>
                 <div className="eyebrow text-accent">Send a Mail</div>
-                <a href="mailto:contact@everestrenderingservices.com.au" className="mt-2 sm:mt-3 block font-display text-base sm:text-lg tracking-tighter text-ink link-underline break-all">contact@everestrenderingservices.com.au</a>
+                <a href="mailto:contact@renderproservices.com.au" className="mt-2 sm:mt-3 block font-display text-base sm:text-lg tracking-tighter text-ink link-underline break-all">contact@renderproservices.com.au</a>
               </div>
             </div>
 
@@ -170,9 +170,9 @@ function ContactPage() {
             <div>
               <div className="eyebrow text-accent">Follow Us</div>
               <div className="mt-2 sm:mt-3 flex flex-wrap gap-4 sm:gap-5 text-sm sm:text-base text-ink">
-                <a href="https://www.facebook.com/Everestrendering" target="_blank" rel="noreferrer" className="link-underline">Facebook</a>
-                <a href="https://www.instagram.com/everest_renderingservices" target="_blank" rel="noreferrer" className="link-underline">Instagram</a>
-                <a href="https://www.linkedin.com/company/everest-rendering-services-pyt-ltd/" target="_blank" rel="noreferrer" className="link-underline">LinkedIn</a>
+                <a href="https://www.facebook.com/renderproservices" target="_blank" rel="noreferrer" className="link-underline">Facebook</a>
+                <a href="https://www.instagram.com/renderproservices" target="_blank" rel="noreferrer" className="link-underline">Instagram</a>
+                <a href="https://www.linkedin.com/company/render-pro-services-pty-ltd/" target="_blank" rel="noreferrer" className="link-underline">LinkedIn</a>
               </div>
             </div>
           </div>
@@ -190,7 +190,7 @@ function ContactPage() {
                 </h2>
 
                 <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                  Our Southport office will review your project requirements and get back to you at <strong>{submittedData?.email || "contact@everestrenderingservices.com.au"}</strong> within 24 hours.
+                  Our Gold Coast office will review your project requirements and get back to you at <strong>{submittedData?.email || "contact@renderproservices.com.au"}</strong> within 24 hours.
                 </p>
 
                 {submittedData && (
@@ -222,7 +222,7 @@ function ContactPage() {
                   </button>
 
                   <a
-                    href={`mailto:contact@everestrenderingservices.com.au?subject=Quote Request from ${encodeURIComponent(submittedData?.name || "Client")}&body=${encodeURIComponent(`Name: ${submittedData?.name || ""}\nEmail: ${submittedData?.email || ""}\nPhone: ${submittedData?.phone || ""}\nService: ${submittedData?.service || ""}\nMessage: ${submittedData?.message || ""}`)}`}
+                    href={`mailto:contact@renderproservices.com.au?subject=Quote Request from ${encodeURIComponent(submittedData?.name || "Client")}&body=${encodeURIComponent(`Name: ${submittedData?.name || ""}\nEmail: ${submittedData?.email || ""}\nPhone: ${submittedData?.phone || ""}\nService: ${submittedData?.service || ""}\nMessage: ${submittedData?.message || ""}`)}`}
                     className="inline-flex items-center gap-2 border border-line px-6 py-3 text-xs uppercase tracking-widest font-semibold text-ink hover:bg-surface-2 transition-colors"
                   >
                     Open in Mail App ✉
@@ -300,16 +300,16 @@ function ContactPage() {
       <section>
         <div className="w-full h-[320px] sm:h-[440px] bg-surface-2 relative overflow-hidden">
           <iframe
-            title="Everest Rendering Services — Southport, QLD"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=153.400%2C-27.975%2C153.430%2C-27.960&layer=mapnik&marker=-27.9679%2C153.4145"
+            title="Render Pro Service — Gold Coast, QLD"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=153.350%2C-28.050%2C153.480%2C-27.940&layer=mapnik&marker=-28.0000%2C153.4000"
             className="absolute inset-0 h-full w-full grayscale opacity-85 hover:opacity-100 transition-opacity"
             loading="lazy"
           />
           <div className="absolute bottom-6 left-6 bg-ink text-background p-4 sm:p-6 max-w-xs shadow-2xl z-10 border border-white/10">
-            <div className="eyebrow text-accent">Southport HQ</div>
+            <div className="eyebrow text-accent">Gold Coast Base</div>
             <p className="mt-2 text-xs sm:text-sm text-background/80">Serving Gold Coast & South East Queensland.</p>
             <a
-              href="https://maps.google.com/?q=Southport+QLD+4215"
+              href="https://maps.google.com/?q=Gold+Coast+QLD"
               target="_blank"
               rel="noreferrer"
               className="mt-3 inline-block text-xs uppercase tracking-widest text-accent hover:underline font-semibold"
